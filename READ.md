@@ -36,13 +36,9 @@ source .venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 ```
 
-### 3. 安装CAMEL-AI
-```bash
-pip install camel-ai[all]
-```
-
-### 4. 环境变量配置
-在.env文件中配置个人llm模型api_key、base_url等信息，默认使用阿里云百炼平台
+### 3. 环境变量配置
+在.env.example文件中配置个人llm模型api_key、base_url等信息，默认使用阿里云百炼平台。
+然后文件名后缀改成.env。
 
 ## 快速开始
 
